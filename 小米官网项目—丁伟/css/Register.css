@@ -1,0 +1,61 @@
+*{margin: 0;padding: 0;list-style: none;text-decoration: none;}
+body{background:#f5f5f5;height: 740px;}
+.register{width: 857px;height: 620px;background:#fff;margin: 0 auto;margin-top:52px;position: relative;}
+.log{margin: 0 auto;width: 50px;height: 50px;display: block;}
+p{font-size: 30px;text-align: center;margin-top: 47px;}
+.select{overflow-y:scroll;width: 334px;height: 270px;display:block;border: 1px solid darkgray;
+margin-left: 262px;z-index: 999;position: absolute;top: 203px;left:0;background: #fff;display: none;}
+.select li{color: #000;font-size: 13px;cursor: pointer;}
+.select li.active{background: pink;}
+.select li span{float: right;color: #666;}
+.select li b{font-weight: normal;}
+.span1{width: 291px;height:41px;border: 1px solid darkgray;display: block;line-height: 50px;
+float: left;margin-left: 262px;}
+.span2{width: 41px;height: 41px;border: 1px solid darkgray;display: block;line-height: 50px;
+text-align: center;float:left;cursor: pointer;}
+.on{border: 1px solid orangered;}
+.area{overflow: hidden;margin-top: 30px;}
+.select li{line-height: 40px;}
+input{width: 332px;height: 42px;margin-left: 262px;z-index: 1;}
+#input1{margin-top: 17px;z-index: 1;}
+#input2{width: 160px;float: left;z-index: 1;}
+#canvas{float: left;margin-top:-18px;margin-left: 20px;z-index: 1;}
+.nonum{font-size:13px;color: #ff6700;margin: 15px 262px 0;display: inline-block;
+line-height: 20px;display:none;z-index: 1;}
+.folst{font-size:13px;color: #ff6700;margin: 0px 262px 0;display: inline-block;
+line-height: 20px;display:none;z-index: 1;}
+.yanzheng{font-size:13px;color: #ff6700;margin: 15px 262px 0;display: inline-block;
+line-height: 20px;display:none;z-index: 1;}
+.deng{margin-left: 262px;width:332px;height: 50px;border: 1px solid #ef5b00;z-index: 1;
+text-align: center;line-height: 50px;background: #ef5b00;cursor: pointer;margin-top:50px;}
+.deng a{color: white;}	
+.remind{margin-left: 262px;margin-top: 10px;color: #9d9d9d;font-size: 12.5px;z-index: 1;
+font-family: arial,"Hiragino Sans GB", "Microsoft YaHei","微軟正黑體","儷黑 Pro", sans-serif;}
+.remind a{color: #333;font-weight: bold;}
+.selec{text-align: center;font-size: 13px;margin-top: 25px;}
+.selec a{color:#8e8c8b;}
+.last{text-align: center;font-size: 14px;color:#8e8c8b;margin-top: 25px;}
+.last img{width: 20px;height: 20px;}
+.ma{width: 857px;height: 620px;background: #fff;margin: 0 auto;display: none;}
+.x{float: right;margin: 15px 15px 0 0;cursor: pointer;}
+.ewm{width: 274px;height: 273px;margin: 50px 0 0 290px;}
+.ma_text{text-align: center;font-size:30px;color:#ff6700;padding-top: 100px;font-family: "微软雅黑";}
+.ma_alert{text-align: center;font-size: 12px;color: #757575;margin-top: 20px;
+font-family: arial,"Hiragino Sans GB","Microsoft YaHei","微軟正黑體","儷黑 Pro",sans-serif;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

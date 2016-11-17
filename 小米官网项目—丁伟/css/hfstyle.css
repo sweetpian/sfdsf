@@ -1,0 +1,61 @@
+*{margin: 0;padding: 0;list-style: none;}
+/*body{font-family:"微软雅黑";}*/
+a{text-decoration: none;}
+.top{height: 40px;width: 100%;background:#333;overflow: hidden;position: relative;}
+.top_left{margin: 0 auto;width: 1230px;}
+.list_l{width: 600px;}
+.list_l li{float: left;font-size:13px;line-height: 40px;}
+.list_l li a{color:#b0b0b0;margin: 0 3.5px;cursor: pointer;}
+.list_l li .sep{color:#404040;}
+.list_l li a:hover{color: white;}
+.list_R{width: 160px;float:left;margin-left: 350px;}
+.list_R li{float:left;font-size: 13px;line-height: 40px;}
+.shop img{width: 20px;height: 14px;display:inline-block;margin-right: 5px;}
+.list_R li a{color:#b0b0b0;margin: 0 5px;}
+.list_R li .sep{color:#404040;}
+.list_R li a:hover{color: white;}
+.shop_car{width: 100px;display:inline-block;padding-left: 10px;line-height: 40px;
+font-size:13px;float:right;background: #424242;}
+.shop_car a{color:#b0b0b0;}
+.shop_car img{width: 20px;height: 20px;vertical-align: middle;margin:-5px 5px 0 8px}
+.shop_car a:hover{color: #ff6700;}
+.shop_kuang{width: 300px;height:0px;position:fixed;right:16px;top:40px;z-index: 999;
+background: #fff;background:#fff;border: 1px solid gainsboro;text-align: center;line-height: 100px;
+font-size: 12px;color: darkgrey;display: none;}
+.list_R.shop:hover{color: red;display: block;}
+
+
+.bottom{overflow: hidden;margin: 0 auto;width: 1230px;background: #fff;}
+.help{height: 80px;width: 1230px;margin: 0 auto;border-bottom: 1px solid #e0e0e0;}
+.help img{margin-top: -5px;padding-right:10px;}
+.help li{width: 246px;height:80px;float: left;line-height: 80px;text-align: center;position: relative;}
+.help li img{vertical-align:middle;}
+.tool{height:80px;line-height: 100px;}
+.line7{position: absolute;right: 0;top: 8px;}
+.more{width: 1230px;margin: 0 auto;height: 200px;}
+.more_l{width: 980px;height: 120px;border-right: 1px solid gainsboro;margin-top: 40px;float: left;}
+.more_l ul{width: 130px;height: 120px;float: left;margin-left: 13px;}
+.more_l ul li{line-height: 25px;font-size: 12px;}
+.more_l ul li a{color:gray;}
+.more_l ul li a:hover{color:#ff6700}
+.first{margin-bottom: 30px;display: block;color:#424242;font-size: 15px;}.
+.more_r{width: 240px;height: 200px;float:right;}
+.content{float: left;height: 120px;margin-top: 40px;margin-left: 40px;}
+.phone{width: 200px;font-size: 25px;color:#ff6700;}
+.time{font-size: 13px;margin-top: 10px;color:gray;}
+.limit{font-size: 15px;color:gray;}
+.call{border: 1px solid #ff6700;width:120px;height: 30px;font-size: 13px;line-height: 30px;
+margin-top: 10px;color:gray;cursor: pointer;}
+.call:hover{background: #ff6700;}
+.link{width: 1230px;margin: 0 auto;margin-top:20px;}
+.log{float: left;margin-right:8px;margin-top:-2px}
+.text{float: left;width: 770px;font-size: 13px;}
+.text p{line-height: 18px;}
+.p1,.p2{color:#b0b0b0}
+.text p span{color:#757575;}
+.text a{color:#757575;}
+.text a:hover{color:#ff6700;}
+.log_pic{float: right;margin-top: 15px;}
+.log_pic img{float: left;}
+.slogan{height: 105px;text-align: center;line-height: 105px;color: #bababa;font-size: 22px;
+font-family:"楷体" ;}

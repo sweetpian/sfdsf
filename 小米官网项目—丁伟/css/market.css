@@ -1,0 +1,132 @@
+*{margin: 0;padding: 0;list-style: none;}
+a{text-decoration: none;}
+.hidebag{
+			position: absolute;
+			left: 0px;
+			top: 0px;
+			background-color: #000;
+			width: 100%;
+			height: 2100px;
+			display:none;
+			filter: alpha(opacity=30);
+			opacity: 0.3;
+			z-Index: 500;
+			}
+.tanchu{
+			width:800px;
+			height: 500px;
+			margin: auto;
+			left: 0;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			z-index: 99999;
+			position:fixed;
+			background: #fff;
+			display: none;
+}
+.tanchu_top{height:60px;width: 800px;background:#f5f5f5;}
+.tanchu_con{color: #424242;font-size: 16px;line-height: 60px;float: left;}
+.tanchu_top img{vertical-align: middle;display: inline-block;margin-left: 480px;
+cursor: pointer;display: none;}
+.tanchu_close{float: right;text-align: right;font-size:26px;margin-left: 10px;
+cursor: pointer;margin-left: 500px;}
+.tanchu_more{width: 800px;height: 80px;background:#f5f5f5;}
+.kuang3{height: 20px;width: 20px;border: 1px solid darkgray;display: inline-block;margin-left: 30px;
+vertical-align: middle;float: left;cursor: pointer;margin-top: 30px;}
+.cons{font-size:14px;padding-top: 32px;color: #424242;padding-left: 7px;float: left;}
+.tanchu_true{width: 160px;height: 40px;background:#ff6700;color: #fff;line-height: 40px;
+text-align: center;float:right;margin-top: -60px;margin-right: 20px;cursor: pointer;}
+
+.shop_top{height: 100px;border-bottom: 2px solid #ff6700;position: relative;}
+.shop_con{float: left;}
+.shop_con p{font-size: 28px;color: #424242;margin:25px 10px 0 40px;font-weight: bold;}
+.shop_con em{font-style: normal;color: #757575;font-size: 12px;margin:0 0 0px 200px;display: block;}
+.log{height: 48px;width:48px;margin-left: 20px;margin-top: 20px;display: block;overflow: hidden;float: left;}
+.log_img span{display:block;margin-top: 0px;}
+.img1,.img2{display:block;height: 48px;}
+.enter1{position: absolute;right: 50px;top: 50px;}
+.enter1 a{color: #757575;font-size: 12px;margin-right: 5px;font-family: sans-serif;}
+.shop_bg{background:#f5f5f5;height: 2000px;overflow: hidden;}
+.shop_message{height: 70px;width: 1230px;margin: 0 auto;background: #fff;margin-top: 40px;border-bottom: 1px solid #e0e0e0;}
+.kuang{height: 20px;width: 20px;border: 1px solid darkgray;display: inline-block;margin-left: 30px;
+vertical-align: middle;text-align: center;cursor: pointer;}
+.shop_span1{margin-left: 20px;line-height: 70px;}
+.shop_span2{margin-left: 140px;color:#424242;font-size: 15px;}
+.shop_span3{margin-left: 370px;color:#424242;font-size: 15px;}
+.shop_span4{margin-left: 140px;color:#424242;font-size: 15px;}
+.shop_span5{margin-left: 110px;color:#424242;font-size: 15px;}
+.shop_span6{margin-left: 100px;color:#424242;font-size: 15px;}
+.shop_commodity{width: 1230px;margin: 0 auto;background: #fff;
+border-bottom: 1px solid #e0e0e0;}
+.kuang2{height: 20px;width: 20px;border: 1px solid darkgray;display: inline-block;margin-left: 30px;
+vertical-align: middle;float: left;margin: 44px 60px 0 30px;cursor: pointer;}
+.phone_data{width: 1080px;height: 110px;float: left;margin-top: 20px;}
+.phone_pic{float: left;}
+.phone_conten{float:left;margin-left: 50px;}
+.phone_conten h5{font-size: 12px;color:#fff;width: 118px;height: 20px;text-align: center;
+line-height: 20px;background:#83c44e;display:block;}
+.one{font-size:18px;font-style: normal;margin-top: 15px;display: block;cursor: pointer;}
+.two{color: #757575;font-size: 12px;margin-top:-10px;display: block;}
+.jiage{margin-left: 100px;display:inline-block;line-height: 100px;}
+.shop_num{display:inline-block;margin-left: 80px;width: 150px;height: 40px;
+border: 1px solid #e0e0e0;margin-top:-20px}
+.shop_num .b1{width: 40px;height: 40px;line-height: 40px;display: inline-block;
+margin-left: 0px;cursor: pointer;}
+.shop_num .b1:hover{background: darkgray;}
+.shop_num span{text-align: center;margin-left: 22px;display:inline-block;}
+.shop_num .b2{width: 40px;height: 40px;text-align:right;line-height: 40px;display: inline-block;
+cursor: pointer;margin-left: 24px;}
+.shop_num .b2:hover{background: darkgray;}
+.jiage_prace{margin-left: 40px;}
+.shop_close{margin-left: 90px;cursor: pointer;font-size: 25px;}
+.shop_close:hover{color:#ff6700;}
+.safeguard{width: 1000px;height: 48px;border: 1px solid #e0e0e0;margin: 0px 0 10px 100px ;display: inline-block;
+line-height: 50px;font-size: 15px;color: #424242;}
+.safeguard img{margin:0px 20px 0 20px;vertical-align: middle;}
+.safeguard a{font-size: 14px;color: #424242;}
+.safeguard a:hover{color: #ff6700;}
+.more_choose{width:1230px;height: 250px;padding-top: 40px;margin: 0 auto;}
+.more_choose li{width:1230px;height: 48px;line-height: 48px;background: #fff;margin-bottom: 2px;
+font-size: 15px;color: #424242;}
+.more_choose li img{vertical-align: middle;margin:0 20px;}
+.continue_buy{width:1230px;height:50px;line-height: 50px;background: #fff;margin: 0 auto;margin-top: 20px;}
+.continue_con{font-size: 13.5px;color:#333;margin-left: 30px;float: left;}
+.buy_total{float: left;font-size: 13.5px;color: #ff6700;margin-left: 400px;}
+.buy_prace{width: 140px;height: 50px;float: left;}
+.buy_prace b{font-size: 30px;color: #ff6700;width: 110px;height:50px;display:inline-block;}
+.buy_prace{color: #ff6700;}
+.buy_Settlement{float:right;width: 180px;height: 50px;line-height: 50px;text-align: center;
+font-size: 18px;color:#fff;background: #ff6700;cursor: pointer;}
+.buy_morer{width:1230px;height:50px;line-height: 50px;margin: 40px auto;}
+.buy_morer span{border: 1px solid gainsboro;width: 350px;vertical-align: middle;display: inline-block;}
+.buy_morer div{font-size:30px;font-weight: 400;margin:0 80px;display: inline;}
+.more_pict{width:1235px;height:700px;margin:0 auto;}
+.more_pict li{float: left;width: 233px;height:300px;margin-right: 14px;margin-bottom: 14px;
+position:relative;z-index: 1;cursor: pointer;}
+.more_kuang{position: absolute;bottom:15px;left: 53px;width: 122px;height: 30px;text-align: center;
+border: 1px solid rgb(255,103,0);line-height: 30px;font-size: 13px;z-index: 10;background: #fff;
+color:#ff6700 ;display: none;}
+.more_kuang:hover{background:#ff6700;color: #fff;}
+.content_ttb{
+			display: block;
+			margin: 0 auto;
+		}
+		.content_ttb td{
+			border: 1px solid pink;
+			padding: 0;
+			text-align: center;
+		}
+		.content_ttb .car_img{
+			width: 100px;
+			height: 70px;
+			margin: 0;
+			
+		}
+	
+		.sc{
+			border-radius: 15px;
+		}
+		.ds{
+			cursor: pointer;
+		}

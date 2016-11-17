@@ -1,0 +1,458 @@
+*{margin: 0;padding: 0;list-style: none;}
+body{font-family: sans-serif;}
+a{text-decoration:none ;}
+.header_bar{position: fixed;top: 0;left: 0;width: 100%;height: 70px;background: rgba(255,255,255,0.8);
+display: none;z-index: 999;}
+.header_con{float: left;font-size: 14px;line-height: 70px;margin-left: 900px;
+display: inline-block;}
+.header_buy{float: right;width: 160px;height: 40px;background: #ff6700;color: #fff;font-size: 14px;
+display: inline-block;line-height: 40px;text-align: center;margin: 10px 20px 10px 20px;cursor: pointer;}
+.header_buy:hover{background: #f25807;}
+.log{height: 48px;width:48px;margin-left: 20px;margin-top: 20px;display: block;overflow: hidden;}
+.log_img span{display:block;margin-top: 0px;}
+.img1,.img2{display:block;height: 48px;}
+.enter1{float: right;margin-right: 20px;margin-top: -20px;}
+.enter1 a{color: #757575;font-size: 12px;margin-right: 5px;font-family: sans-serif;}
+.list_phone{width: 100%;height: 92px;border-top: 2px solid #ff6700;margin-top: 25px;}
+.phone_ul{width: 1200px;height:90px;margin: 0 auto;border-bottom: 1px solid darkgray;}
+.phone_ul li{float: left;line-height: 90px;color: #333;font-size: 14px;text-align: center;display: block;
+width: 120px;cursor: pointer;height: 90px;}
+.active{border-bottom: 1px solid black;}
+/*小米5s*/
+.phone_list{height:600px;margin-top: 40px}
+.phone_img{width:500px;height: 480px;margin-left: 50px;float: left;}
+.phoneimg_ul li img{width:480px;height: 480px;}
+.detail{float:left;margin-top:10px;margin-left: 100px;width: 600px;}
+.detail_conten{height: 60px;line-height:60px;border-bottom: 1px solid lightgray;width:550px;}
+.detail_con{font-size: 30px;}
+.detail_price{font-size:30px;margin-left: 10px;color: #ff6700;}
+.detail_more{color: #666;font-size: 12px;float:right;margin-top: 14px;cursor: pointer;}
+.detail_choose{height: 120px;margin-top: 45px;}
+.choose_ben{font-size: 18px;}
+.detail_choose i{font-style: normal;font-size: 12px;color:#b0b0b0;margin-left: 10px;}
+.choose_one{width: 265px;height: 50px;text-align: center;line-height: 50px;display:inline-block;
+border: 1px solid gainsboro;cursor: pointer;margin-top: 15px;margin-right: 10px;}
+.choose_two{width: 265px;height: 50px;text-align: center;line-height: 50px;display:inline-block;
+border: 1px solid gainsboro;cursor: pointer;margin-top: 15px;}
+.detail_color{height: 180px;}
+.choose_color{font-size: 18px;color: #333;}
+.detail_silvery{width: 265px;height: 50px;text-align: center;line-height: 50px;display:inline-block;
+border: 1px solid gainsboro;cursor: pointer;margin-top: 15px;margin-right: 10px;}
+.detail_silvery b{width: 15px;height: 15px;border-radius: 50%;background:silver;display: inline-block;margin-right: 5px;}
+.detail_gray{width: 265px;height: 50px;text-align: center;line-height: 50px;display:inline-block;
+border: 1px solid gainsboro;cursor: pointer;margin-top: 15px;margin-right: 10px;}
+.detail_gray b{width: 15px;height: 15px;border-radius: 50%;background:gray;display: inline-block;margin-right: 5px;}
+.detail_gold{width: 265px;height: 50px;text-align: center;line-height: 50px;display:inline-block;
+border: 1px solid gainsboro;cursor: pointer;margin-top: 15px;margin-right: 10px;}
+.detail_gold b{width: 15px;height: 15px;border-radius: 50%;background:gold;display: inline-block;margin-right: 5px;}
+.detail_rgold{width: 265px;height: 50px;text-align: center;line-height: 50px;display:inline-block;
+border: 1px solid gainsboro;cursor: pointer;margin-top: 15px;margin-right: 10px;}
+.detail_rgold b{width: 15px;height: 15px;border-radius: 50%;background:#f3b6d3;display: inline-block;margin-right: 5px;}
+.detail_complete{height: 150px;}
+.detail_complete p{font-size:14px;color: #212121;}
+.select_phone{color: #666;font-size: 13px;margin-top: 15px;display:inline-block;display: ;}
+.detail_next{width: 265px;height: 50px;text-align: center;line-height: 50px;display:inline-block;
+border: 1px solid gainsboro;cursor: pointer;margin-top: 25px;margin-right: 10px;}
+
+
+.phone_list2{height: 600px;margin-top: 40px;display: none;}
+.phone_img2{width:500px;height: 480px;margin-left: 50px;float: left;}
+.phoneimg_ul2 li img{width:480px;height: 480px;}
+.detail2{float:left;margin-top:10px;margin-left: 100px;width: 600px;}
+.detail_conten2{height: 60px;line-height:60px;border-bottom: 1px solid lightgray;width:550px;}
+.detail_con2{font-size: 30px;}
+.detail_price2{font-size:30px;margin-left: 10px;color: #ff6700;}
+.detail_more2{color: #666;font-size: 12px;float:right;margin-top: 14px;cursor: pointer;}
+.detail_choose2{height: 120px;margin-top: 45px;}
+.choose_ben2{font-size: 18px;}
+.detail_choose2 i{font-style: normal;font-size: 12px;color:#b0b0b0;margin-left: 10px;}
+.choose_one2{width: 265px;height: 50px;text-align: center;line-height: 50px;display:inline-block;
+border: 1px solid gainsboro;cursor: pointer;margin-top: 15px;margin-right: 10px;}
+.choose_two2{width: 265px;height: 50px;text-align: center;line-height: 50px;display:inline-block;
+border: 1px solid gainsboro;cursor: pointer;margin-top: 15px;}
+.detail_color2{height: 180px;}
+.choose_color2{font-size: 18px;color: #333;}
+.detail_silvery2{width: 265px;height: 50px;text-align: center;line-height: 50px;display:inline-block;
+border: 1px solid gainsboro;cursor: pointer;margin-top: 15px;margin-right: 10px;}
+.detail_silvery2 b{width: 15px;height: 15px;border-radius: 50%;background:silver;display: inline-block;margin-right: 5px;}
+.detail_gray2{width: 265px;height: 50px;text-align: center;line-height: 50px;display:inline-block;
+border: 1px solid gainsboro;cursor: pointer;margin-top: 15px;margin-right: 10px;}
+.detail_gray2 b{width: 15px;height: 15px;border-radius: 50%;background:gray;display: inline-block;margin-right: 5px;}
+.detail_gold2{width: 265px;height: 50px;text-align: center;line-height: 50px;display:inline-block;
+border: 1px solid gainsboro;cursor: pointer;margin-top: 15px;margin-right: 10px;}
+.detail_gold2 b{width: 15px;height: 15px;border-radius: 50%;background:gold;display: inline-block;margin-right: 5px;}
+.detail_rgold2{width: 265px;height: 50px;text-align: center;line-height: 50px;display:inline-block;
+border: 1px solid gainsboro;cursor: pointer;margin-top: 15px;margin-right: 10px;}
+.detail_rgold2 b{width: 15px;height: 15px;border-radius: 50%;background:#f3b6d3;display: inline-block;margin-right: 5px;}
+.detail_complete2{height: 150px;}
+.detail_complete2 p{font-size:14px;color: #212121;}
+.select_phone2{color: #666;font-size: 13px;margin-top: 15px;display:inline-block;display: ;}
+.detail_next2{width: 265px;height: 50px;text-align: center;line-height: 50px;display:inline-block;
+border: 1px solid gainsboro;cursor: pointer;margin-top: 25px;margin-right: 10px;}
+
+.phone_list3{height: 600px;margin-top: 40px;display: none;}
+.phone_img3{width:500px;height: 480px;margin-left: 50px;float: left;}
+.phoneimg_ul3 li img{width:480px;height: 480px;}
+.detail3{float:left;margin-top:10px;margin-left: 100px;width: 600px;}
+.detail_conten3{height: 60px;line-height:60px;border-bottom: 1px solid lightgray;width:550px;}
+.detail_con3{font-size: 30px;}
+.detail_price3{font-size:30px;margin-left: 10px;color: #ff6700;}
+.detail_more3{color: #666;font-size: 12px;float:right;margin-top: 14px;cursor: pointer;}
+.detail_choose3{height: 120px;margin-top: 45px;}
+.choose_ben3{font-size: 18px;}
+.detail_choose3 i{font-style: normal;font-size: 12px;color:#b0b0b0;margin-left: 10px;}
+.choose_one3{width: 265px;height: 50px;text-align: center;line-height: 50px;display:inline-block;
+border: 1px solid gainsboro;cursor: pointer;margin-top: 15px;margin-right: 10px;}
+.choose_two3{width: 265px;height: 50px;text-align: center;line-height: 50px;display:inline-block;
+border: 1px solid gainsboro;cursor: pointer;margin-top: 15px;}
+.detail_color3{height: 180px;}
+.choose_color3{font-size: 18px;color: #333;}
+.detail_silvery3{width: 265px;height: 50px;text-align: center;line-height: 50px;display:inline-block;
+border: 1px solid gainsboro;cursor: pointer;margin-top: 15px;margin-right: 10px;}
+.detail_silvery3 b{width: 15px;height: 15px;border-radius: 50%;background:silver;display: inline-block;margin-right: 5px;}
+.detail_gray3{width: 265px;height: 50px;text-align: center;line-height: 50px;display:inline-block;
+border: 1px solid gainsboro;cursor: pointer;margin-top: 15px;margin-right: 10px;}
+.detail_gray3 b{width: 15px;height: 15px;border-radius: 50%;background:gray;display: inline-block;margin-right: 5px;}
+.detail_gold3{width: 265px;height: 50px;text-align: center;line-height: 50px;display:inline-block;
+border: 1px solid gainsboro;cursor: pointer;margin-top: 15px;margin-right: 10px;}
+.detail_gold3 b{width: 15px;height: 15px;border-radius: 50%;background:gold;display: inline-block;margin-right: 5px;}
+.detail_rgold3{width: 265px;height: 50px;text-align: center;line-height: 50px;display:inline-block;
+border: 1px solid gainsboro;cursor: pointer;margin-top: 15px;margin-right: 10px;}
+.detail_rgold3 b{width: 15px;height: 15px;border-radius: 50%;background:#f3b6d3;display: inline-block;margin-right: 5px;}
+.detail_complete3{height: 150px;}
+.detail_complete3 p{font-size:14px;color: #212121;}
+.select_phone3{color: #666;font-size: 13px;margin-top: 15px;display:inline-block;display: ;}
+.detail_next3{width: 265px;height: 50px;text-align: center;line-height: 50px;display:inline-block;
+border: 1px solid gainsboro;cursor: pointer;margin-top: 25px;margin-right: 10px;}
+
+.phone_list4{height: 600px;margin-top: 40px;display: none;}
+.phone_img4{width:500px;height: 480px;margin-left: 50px;float: left;}
+.phoneimg_ul4 li img{width:480px;height: 480px;}
+.detail4{float:left;margin-top:10px;margin-left: 100px;width: 600px;}
+.detail_conten4{height: 60px;line-height:60px;border-bottom: 1px solid lightgray;width:550px;}
+.detail_con4{font-size: 30px;}
+.detail_price4{font-size:30px;margin-left: 10px;color: #ff6700;}
+.detail_more4{color: #666;font-size: 12px;float:right;margin-top: 14px;cursor: pointer;}
+.detail_choose4{height: 120px;margin-top: 45px;}
+.choose_ben4{font-size: 18px;}
+.detail_choose4 i{font-style: normal;font-size: 12px;color:#b0b0b0;margin-left: 10px;}
+.choose_one4{width: 265px;height: 50px;text-align: center;line-height: 50px;display:inline-block;
+border: 1px solid gainsboro;cursor: pointer;margin-top: 15px;margin-right: 10px;}
+.choose_two4{width: 265px;height: 50px;text-align: center;line-height: 50px;display:inline-block;
+border: 1px solid gainsboro;cursor: pointer;margin-top: 15px;}
+.detail_color4{height: 180px;}
+.choose_color4{font-size: 18px;color: #333;}
+.detail_silvery4{width: 265px;height: 50px;text-align: center;line-height: 50px;display:inline-block;
+border: 1px solid gainsboro;cursor: pointer;margin-top: 15px;margin-right: 10px;}
+.detail_silvery4 b{width: 15px;height: 15px;border-radius: 50%;background:silver;display: inline-block;margin-right: 5px;}
+.detail_gray4{width: 265px;height: 50px;text-align: center;line-height: 50px;display:inline-block;
+border: 1px solid gainsboro;cursor: pointer;margin-top: 15px;margin-right: 10px;}
+.detail_gray4 b{width: 15px;height: 15px;border-radius: 50%;background:gray;display: inline-block;margin-right: 5px;}
+.detail_gold4{width: 265px;height: 50px;text-align: center;line-height: 50px;display:inline-block;
+border: 1px solid gainsboro;cursor: pointer;margin-top: 15px;margin-right: 10px;}
+.detail_gold4 b{width: 15px;height: 15px;border-radius: 50%;background:gold;display: inline-block;margin-right: 5px;}
+.detail_rgold4{width: 265px;height: 50px;text-align: center;line-height: 50px;display:inline-block;
+border: 1px solid gainsboro;cursor: pointer;margin-top: 15px;margin-right: 10px;}
+.detail_rgold4 b{width: 15px;height: 15px;border-radius: 50%;background:#f3b6d3;display: inline-block;margin-right: 5px;}
+.detail_complete4{height: 150px;}
+.detail_complete4 p{font-size:14px;color: #212121;}
+.select_phone4{color: #666;font-size: 13px;margin-top: 15px;display:inline-block;display: ;}
+.detail_next4{width: 265px;height: 50px;text-align: center;line-height: 50px;display:inline-block;
+border: 1px solid gainsboro;cursor: pointer;margin-top: 25px;margin-right: 10px;}
+
+.phone_list5{height: 600px;margin-top: 40px;display: none;}
+.phone_img5{width:500px;height: 480px;margin-left: 50px;float: left;}
+.phoneimg_ul5 li img{width:480px;height: 480px;}
+.detail5{float:left;margin-top:10px;margin-left: 100px;width: 600px;}
+.detail_conten5{height: 60px;line-height:60px;border-bottom: 1px solid lightgray;width:550px;}
+.detail_con5{font-size: 30px;}
+.detail_price5{font-size:30px;margin-left: 10px;color: #ff6700;}
+.detail_more5{color: #666;font-size: 12px;float:right;margin-top: 14px;cursor: pointer;}
+.detail_choose5{height: 120px;margin-top: 45px;}
+.choose_ben5{font-size: 18px;}
+.detail_choose5 i{font-style: normal;font-size: 12px;color:#b0b0b0;margin-left: 10px;}
+.choose_one5{width: 265px;height: 50px;text-align: center;line-height: 50px;display:inline-block;
+border: 1px solid gainsboro;cursor: pointer;margin-top: 15px;margin-right: 10px;}
+.choose_two5{width: 265px;height: 50px;text-align: center;line-height: 50px;display:inline-block;
+border: 1px solid gainsboro;cursor: pointer;margin-top: 15px;}
+.detail_color5{height: 180px;}
+.choose_color5{font-size: 18px;color: #333;}
+.detail_silvery5{width: 265px;height: 50px;text-align: center;line-height: 50px;display:inline-block;
+border: 1px solid gainsboro;cursor: pointer;margin-top: 15px;margin-right: 10px;}
+.detail_silvery5 b{width: 15px;height: 15px;border-radius: 50%;background:silver;display: inline-block;margin-right: 5px;}
+.detail_gray5{width: 265px;height: 50px;text-align: center;line-height: 50px;display:inline-block;
+border: 1px solid gainsboro;cursor: pointer;margin-top: 15px;margin-right: 10px;}
+.detail_gray5 b{width: 15px;height: 15px;border-radius: 50%;background:gray;display: inline-block;margin-right: 5px;}
+.detail_gold5{width: 265px;height: 50px;text-align: center;line-height: 50px;display:inline-block;
+border: 1px solid gainsboro;cursor: pointer;margin-top: 15px;margin-right: 10px;}
+.detail_gold5 b{width: 15px;height: 15px;border-radius: 50%;background:gold;display: inline-block;margin-right: 5px;}
+.detail_rgold5{width: 265px;height: 50px;text-align: center;line-height: 50px;display:inline-block;
+border: 1px solid gainsboro;cursor: pointer;margin-top: 15px;margin-right: 10px;}
+.detail_rgold5 b{width: 15px;height: 15px;border-radius: 50%;background:#f3b6d3;display: inline-block;margin-right: 5px;}
+.detail_complete5{height: 150px;}
+.detail_complete5 p{font-size:14px;color: #212121;}
+.select_phone5{color: #666;font-size: 13px;margin-top: 15px;display:inline-block;display: ;}
+.detail_next5{width: 265px;height: 50px;text-align: center;line-height: 50px;display:inline-block;
+border: 1px solid gainsboro;cursor: pointer;margin-top: 25px;margin-right: 10px;}
+
+.phone_list6{height: 600px;margin-top: 40px;display: none;}
+.phone_img6{width:500px;height: 480px;margin-left: 50px;float: left;}
+.phoneimg_ul6 li img{width:480px;height: 480px;}
+.detail6{float:left;margin-top:10px;margin-left: 100px;width: 600px;}
+.detail_conten6{height: 60px;line-height:60px;border-bottom: 1px solid lightgray;width:550px;}
+.detail_con6{font-size: 30px;}
+.detail_price6{font-size:30px;margin-left: 10px;color: #ff6700;}
+.detail_more6{color: #666;font-size: 12px;float:right;margin-top: 14px;cursor: pointer;}
+.detail_choose6{height: 120px;margin-top: 45px;}
+.choose_ben6{font-size: 18px;}
+.detail_choose6 i{font-style: normal;font-size: 10px;color:#b0b0b0;margin-left: 10px;display: inline-block;}
+.choose_one6{width: 265px;height: 50px;text-align: center;line-height: 50px;display:inline-block;
+border: 1px solid gainsboro;cursor: pointer;margin-top: 15px;margin-right: 10px;}
+.choose_two6{width: 265px;height: 50px;text-align: center;line-height: 50px;display:inline-block;
+border: 1px solid gainsboro;cursor: pointer;margin-top: 15px;}
+.detail_color6{height: 180px;}
+.choose_color6{font-size: 18px;color: #333;}
+.detail_silvery6{width: 265px;height: 50px;text-align: center;line-height: 50px;display:inline-block;
+border: 1px solid gainsboro;cursor: pointer;margin-top: 15px;margin-right: 10px;}
+.detail_silvery6 b{width: 15px;height: 15px;border-radius: 50%;background:silver;display: inline-block;margin-right: 5px;}
+.detail_gray6{width: 265px;height: 50px;text-align: center;line-height: 50px;display:inline-block;
+border: 1px solid gainsboro;cursor: pointer;margin-top: 15px;margin-right: 10px;}
+.detail_gray6 b{width: 15px;height: 15px;border-radius: 50%;background:gray;display: inline-block;margin-right: 5px;}
+.detail_gold6{width: 265px;height: 50px;text-align: center;line-height: 50px;display:inline-block;
+border: 1px solid gainsboro;cursor: pointer;margin-top: 15px;margin-right: 10px;}
+.detail_gold6 b{width: 15px;height: 15px;border-radius: 50%;background:gold;display: inline-block;margin-right: 5px;}
+.detail_rgold6{width: 265px;height: 50px;text-align: center;line-height: 50px;display:inline-block;
+border: 1px solid gainsboro;cursor: pointer;margin-top: 15px;margin-right: 10px;}
+.detail_rgold6 b{width: 15px;height: 15px;border-radius: 50%;background:#f3b6d3;display: inline-block;margin-right: 5px;}
+.detail_complete6{height: 150px;}
+.detail_complete6 p{font-size:14px;color: #212121;}
+.select_phone6{color: #666;font-size: 13px;margin-top: 15px;display:inline-block;display: ;}
+.detail_next6{width: 265px;height: 50px;text-align: center;line-height: 50px;display:inline-block;
+border: 1px solid gainsboro;cursor: pointer;margin-top: 25px;margin-right: 10px;}
+
+.phone_list7{height: 600px;margin-top: 40px;display: none;}
+.phone_img7{width:500px;height: 480px;margin-left: 50px;float: left;}
+.phoneimg_ul7 li img{width:480px;height: 480px;}
+.detail7{float:left;margin-top:10px;margin-left: 100px;width: 600px;}
+.detail_conten7{height: 60px;line-height:60px;border-bottom: 1px solid lightgray;width:550px;}
+.detail_con7{font-size: 30px;}
+.detail_price7{font-size:30px;margin-left: 10px;color: #ff6700;}
+.detail_more7{color: #666;font-size: 12px;float:right;margin-top: 14px;cursor: pointer;}
+.detail_choose7{height: 120px;margin-top: 45px;}
+.choose_ben7{font-size: 18px;}
+.detail_choose7 i{font-style: normal;font-size: 12px;color:#b0b0b0;margin-left: 10px;}
+.choose_one7{width: 265px;height: 50px;text-align: center;line-height: 50px;display:inline-block;
+border: 1px solid gainsboro;cursor: pointer;margin-top: 15px;margin-right: 10px;}
+.choose_two7{width: 265px;height: 50px;text-align: center;line-height: 50px;display:inline-block;
+border: 1px solid gainsboro;cursor: pointer;margin-top: 15px;}
+.detail_color7{height: 180px;}
+.choose_color7{font-size: 18px;color: #333;}
+.detail_silvery7{width: 265px;height: 50px;text-align: center;line-height: 50px;display:inline-block;
+border: 1px solid gainsboro;cursor: pointer;margin-top: 15px;margin-right: 10px;}
+.detail_silvery7 b{width: 15px;height: 15px;border-radius: 50%;background:silver;display: inline-block;margin-right: 5px;}
+.detail_gray7{width: 265px;height: 50px;text-align: center;line-height: 50px;display:inline-block;
+border: 1px solid gainsboro;cursor: pointer;margin-top: 15px;margin-right: 10px;}
+.detail_gray7 b{width: 15px;height: 15px;border-radius: 50%;background:gray;display: inline-block;margin-right: 5px;}
+.detail_gold7{width: 265px;height: 50px;text-align: center;line-height: 50px;display:inline-block;
+border: 1px solid gainsboro;cursor: pointer;margin-top: 15px;margin-right: 10px;}
+.detail_gold7 b{width: 15px;height: 15px;border-radius: 50%;background:gold;display: inline-block;margin-right: 5px;}
+.detail_rgold7{width: 265px;height: 50px;text-align: center;line-height: 50px;display:inline-block;
+border: 1px solid gainsboro;cursor: pointer;margin-top: 15px;margin-right: 10px;}
+.detail_rgold7 b{width: 15px;height: 15px;border-radius: 50%;background:#f3b6d3;display: inline-block;margin-right: 5px;}
+.detail_complete7{height: 150px;}
+.detail_complete7 p{font-size:14px;color: #212121;}
+.select_phone7{color: #666;font-size: 13px;margin-top: 15px;display:inline-block;display: ;}
+.detail_next7{width: 265px;height: 50px;text-align: center;line-height: 50px;display:inline-block;
+border: 1px solid gainsboro;cursor: pointer;margin-top: 25px;margin-right: 10px;}
+
+.phone_list8{height: 600px;margin-top: 40px;display: none;}
+.phone_img8{width:500px;height: 480px;margin-left: 50px;float: left;}
+.phoneimg_ul8 li img{width:480px;height: 480px;}
+.detail8{float:left;margin-top:10px;margin-left: 100px;width: 600px;}
+.detail_conten8{height: 60px;line-height:60px;border-bottom: 1px solid lightgray;width:550px;}
+.detail_con8{font-size: 30px;}
+.detail_price8{font-size:30px;margin-left: 10px;color: #ff6700;}
+.detail_more8{color: #666;font-size: 12px;float:right;margin-top: 14px;cursor: pointer;}
+.detail_choose8{height: 120px;margin-top: 45px;}
+.choose_ben8{font-size: 18px;}
+.detail_choose8 i{font-style: normal;font-size: 12px;color:#b0b0b0;margin-left: 10px;}
+.choose_one8{width: 265px;height: 50px;text-align: center;line-height: 50px;display:inline-block;
+border: 1px solid gainsboro;cursor: pointer;margin-top: 15px;margin-right: 10px;}
+.choose_two8{width: 265px;height: 50px;text-align: center;line-height: 50px;display:inline-block;
+border: 1px solid gainsboro;cursor: pointer;margin-top: 15px;}
+.detail_color8{height: 180px;}
+.choose_color8{font-size: 18px;color: #333;}
+.detail_silvery8{width: 265px;height: 50px;text-align: center;line-height: 50px;display:inline-block;
+border: 1px solid gainsboro;cursor: pointer;margin-top: 15px;margin-right: 10px;}
+.detail_silvery8 b{width: 15px;height: 15px;border-radius: 50%;background:silver;display: inline-block;margin-right: 5px;}
+.detail_gray8{width: 265px;height: 50px;text-align: center;line-height: 50px;display:inline-block;
+border: 1px solid gainsboro;cursor: pointer;margin-top: 15px;margin-right: 10px;}
+.detail_gray8 b{width: 15px;height: 15px;border-radius: 50%;background:gray;display: inline-block;margin-right: 5px;}
+.detail_gold8{width: 265px;height: 50px;text-align: center;line-height: 50px;display:inline-block;
+border: 1px solid gainsboro;cursor: pointer;margin-top: 15px;margin-right: 10px;}
+.detail_gold8 b{width: 15px;height: 15px;border-radius: 50%;background:gold;display: inline-block;margin-right: 5px;}
+.detail_rgold8{width: 265px;height: 50px;text-align: center;line-height: 50px;display:inline-block;
+border: 1px solid gainsboro;cursor: pointer;margin-top: 15px;margin-right: 10px;}
+.detail_rgold8 b{width: 15px;height: 15px;border-radius: 50%;background:#f3b6d3;display: inline-block;margin-right: 5px;}
+.detail_complete8{height: 150px;}
+.detail_complete8 p{font-size:14px;color: #212121;}
+.select_phone8{color: #666;font-size: 13px;margin-top: 15px;display:inline-block;display: ;}
+.detail_next8{width: 265px;height: 50px;text-align: center;line-height: 50px;display:inline-block;
+border: 1px solid gainsboro;cursor: pointer;margin-top: 25px;margin-right: 10px;}
+
+.phone_list9{height: 600px;margin-top: 40px;display: none;}
+.phone_img9{width:500px;height: 480px;margin-left: 50px;float: left;}
+.phoneimg_ul9 li img{width:480px;height: 480px;}
+.detail9{float:left;margin-top:10px;margin-left: 100px;width: 600px;}
+.detail_conten9{height: 60px;line-height:60px;border-bottom: 1px solid lightgray;width:550px;}
+.detail_con9{font-size: 30px;}
+.detail_price9{font-size:30px;margin-left: 10px;color: #ff6700;}
+.detail_more9{color: #666;font-size: 12px;float:right;margin-top: 14px;cursor: pointer;}
+.detail_choose9{height: 120px;margin-top: 45px;}
+.choose_ben9{font-size: 18px;}
+.detail_choose9 i{font-style: normal;font-size: 12px;color:#b0b0b0;margin-left: 10px;}
+.choose_one9{width: 265px;height: 50px;text-align: center;line-height: 50px;display:inline-block;
+border: 1px solid gainsboro;cursor: pointer;margin-top: 15px;margin-right: 10px;}
+.choose_two9{width: 265px;height: 50px;text-align: center;line-height: 50px;display:inline-block;
+border: 1px solid gainsboro;cursor: pointer;margin-top: 15px;}
+.detail_color9{height: 180px;}
+.choose_color9{font-size: 18px;color: #333;}
+.detail_silvery9{width: 265px;height: 50px;text-align: center;line-height: 50px;display:inline-block;
+border: 1px solid gainsboro;cursor: pointer;margin-top: 15px;margin-right: 10px;}
+.detail_silvery9 b{width: 15px;height: 15px;border-radius: 50%;background:silver;display: inline-block;margin-right: 5px;}
+.detail_gray9{width: 265px;height: 50px;text-align: center;line-height: 50px;display:inline-block;
+border: 1px solid gainsboro;cursor: pointer;margin-top: 15px;margin-right: 10px;}
+.detail_gray9 b{width: 15px;height: 15px;border-radius: 50%;background:gray;display: inline-block;margin-right: 5px;}
+.detail_gold9{width: 265px;height: 50px;text-align: center;line-height: 50px;display:inline-block;
+border: 1px solid gainsboro;cursor: pointer;margin-top: 15px;margin-right: 10px;}
+.detail_gold9 b{width: 15px;height: 15px;border-radius: 50%;background:gold;display: inline-block;margin-right: 5px;}
+.detail_rgold9{width: 265px;height: 50px;text-align: center;line-height: 50px;display:inline-block;
+border: 1px solid gainsboro;cursor: pointer;margin-top: 15px;margin-right: 10px;}
+.detail_rgold9 b{width: 15px;height: 15px;border-radius: 50%;background:#f3b6d3;display: inline-block;margin-right: 5px;}
+.detail_complete9{height: 150px;}
+.detail_complete9 p{font-size:14px;color: #212121;}
+.select_phone9{color: #666;font-size: 13px;margin-top: 15px;display:inline-block;display: ;}
+.detail_next9{width: 265px;height: 50px;text-align: center;line-height: 50px;display:inline-block;
+border: 1px solid gainsboro;cursor: pointer;margin-top: 25px;margin-right: 10px;}
+.choose_all{border: 1px solid #ff6700;}
+.phone_mi5s{height: 588px;width: 100%;}
+.banner {
+	width: 1260px;
+	height: 696px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+
+.banner .img {
+	width: 7000px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.banner .img li {
+	float: left;
+}
+
+.banner .num {
+	width: 100%;
+	position: absolute;
+	bottom: 49.5px;
+	left: 0;
+	text-align: center;
+	font-size: 0px;
+}
+
+.banner .num li {
+	width: 10px;
+	height: 10px;
+	background: #888;
+	border-radius: 50%;
+	display: inline-block;
+	cursor: pointer;
+	margin: 0 5.9px;
+}
+
+.banner .num li.on {
+	background: #F60;
+}
+
+.banner .btn {
+	width: 40px ;height: 70px;
+	line-height: 50px;
+	color: #fff;
+	background: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	top: 48%;
+	margin-top: -25px;
+	cursor: pointer;
+	text-align: center;
+	font-size: 40px;
+	/*display: none;*/
+}
+
+.banner .btn_l {
+	left: 18px;
+}
+
+.banner .btn_r {
+	right: 18px;
+}
+.phone_protecs{width: 100%;height:616px;cursor: pointer;}
+.phone_parameter{height: 188px;width: 100%;border-bottom: 1px solid rgba(224,224,224,0.2);}
+.phone_parameter{text-align: center;line-height:188px;font-size: 30px;color: #424242;}
+.phone_parameter a{cursor: pointer;} 
+.a22{display: none;}
+.parameter_more{display: none;}
+.parameter_more img{width:100%}
+.phonep_free{height: 590px;}
+.phonep_free h3{text-align: center;color: #424242;font-size: 30px;line-height: 1.4;font-style: normal;}
+.phonep_free h3:nth-child(1){padding: 90px 0 10px;}
+.phonep_free img{margin-top:30px;}
+.phone_service{position: relative;width: 1226px;height: 602px;margin-left: auto;margin-right: auto;}
+.service_img{width: 1226px;height: 602px;}
+.service_con{width: 1226px;height: 160px;position: absolute;bottom: 0;left:0;background: rgba(0,0,0,0.7);}
+.service_text{margin-left: 80px;float: left;}
+.service_text h3{font-size: 24px;margin:40px 0 15px;font-style: normal;color: #f5f5f5;}
+.service_text h4{line-height:1.8;color: #f5f5f5;font-style: normal;font-size: 15px;}
+.service_frame{width: 182px;float: right;overflow:hidden;padding: 25px 35px 0 0;}
+.service_frame div{width:182px;height: 50px;border: 1px solid #ff6700;color: #ff6700;margin-bottom: 15px;
+line-height: 50px;text-align: center;font-style: normal;font-size: 14px;cursor: pointer;}
+.service_frame div:hover{color: #fff;}
+.bottom{overflow: hidden;margin: 0 auto;width: 1230px;background: #fff;height: 450px;}
+.help{height: 80px;width: 1230px;margin: 0 auto;border-bottom: 1px solid #e0e0e0;}
+.help img{margin-top: -5px;padding-right:10px;}
+.help li{width: 246px;height:80px;float: left;line-height: 80px;text-align: center;position: relative;}
+.help li img{vertical-align:middle;}
+.tool{height:80px;line-height: 100px;}
+.line7{position: absolute;right: 0;top: 8px;}
+.more{width: 1230px;margin: 0 auto;height: 200px;}
+.more_l{width: 980px;height: 120px;border-right: 1px solid gainsboro;margin-top: 40px;float: left;}
+.more_l ul{width: 162px;height: 120px;float: left;}
+.more_l ul li{line-height: 25px;font-size: 12px;}
+.more_l ul li a{color:gray;}
+.more_l ul li a:hover{color:#ff6700}
+.first{margin-bottom: 30px;display: block;color:#424242;font-size: 15px;}.
+.more_r{width: 240px;height: 200px;float:right;}
+.content{float: left;height: 120px;margin-top: 40px;margin-left: 40px;}
+.phone{width: 200px;font-size: 25px;color:#ff6700;}
+.time{font-size: 13px;margin-top: 10px;color:gray;}
+.limit{font-size: 15px;color:gray;}
+.call{border: 1px solid #ff6700;width:120px;height: 30px;font-size: 13px;line-height: 30px;
+margin-top: 10px;color:gray;cursor: pointer;}
+.call:hover{background: #ff6700;}
+.link{width: 1230px;margin: 0 auto;margin-top:20px;}
+.log2{float: left;margin-right:0px;}
+.text{float: left;width: 770px;font-size: 13px;}
+.text p{line-height: 18px;}
+.p1,.p2{color:#b0b0b0}
+.text p span{color:#757575;}
+.text a{color:#757575;}
+.text a:hover{color:#ff6700;}
+.log_pic{float: right;margin-top: 15px;}
+.log_pic img{float: left;}
+.slogan{height: 105px;text-align: center;line-height: 105px;color: #bababa;font-size: 22px;
+font-family:"楷体" ;}
+
+
