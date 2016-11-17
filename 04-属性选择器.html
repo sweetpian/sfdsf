@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>css3基础课程</title>
+        <style type="text/css">
+        	*{
+        		margin:0;
+        		padding:0;
+        	}
+        	
+             body{
+                margin:0;
+                padding:0;
+                font-family:'微软雅黑';
+                background-color:#f7f7f7;
+            }
+
+            a{
+                color:#333;
+                font-size:24px;
+                text-decoration:none;
+            }
+
+            li{
+                line-height:40px;
+            }
+            
+            /*属性选择器    注意：里面的属性不要加 引号*/	
+            /*.content li a[href]{  
+                background:red;
+            } */
+
+          /*   .content li a[href='a.txt']{  属性选择器  属性等于指定内容
+                background:red;
+            } */
+
+			/*属性选择器  选择以某个元素开头的元素*/ 
+             /*.content li a[href^='a']{  
+                background:red;
+            } */
+           
+			/*属性选择器  选择以某个元素结尾的元素*/
+             /*.content li a[href$='m']{   
+                background:blue;
+            } */
+			
+			/*属性选择器  包含某个元素*/ 
+             /*.content li a[href*='m']{  
+                background:blue;
+            } */
+
+            /*li[type]{
+                background:red;
+            }*/
+           
+           .content li a[href~='m']{  
+                background:red;
+            } 
+           
+           /*.content li a[href|='m']{  
+                background:red;
+            } */
+        </style>   
+    </head>
+    <body>
+      <div class="content">
+            <ul>               
+                 <li  type="doc">
+                    <a href="a.txt">a.txt是一个文本文件</a>
+                </li>
+                <li>
+                    <a href="b.txt">b.txt是一个文本文件</a>
+                </li>
+                <li>
+                    <a href="am">a m一个音频文件</a>
+                </li>
+                <li>
+                    <a href="a.p">a.p3一个音频文件</a>
+                </li>
+                <li>
+                    <a href="b.mp3">b.mp3一个音频文件</a>
+                </li>
+                <li>
+                    <a href="m-p3">m-p3一个音频文件</a>
+                </li>
+                <li>
+                    <a href="a.rmvb">a.rmvb是一个视频文件</a>
+                </li>
+                <li>
+                    <a href="b.rmvb">b.rmvb是一个视频文件</a>
+                </li>
+                <li>
+                    <a href="m p3">m p3是一个视频文件</a>
+                </li>
+                <li>
+                    <a href="c.rmvb">c.rmvb是一个视频文件</a>
+                </li>
+            </ul>
+      </div>
+    </body>
+</html>
